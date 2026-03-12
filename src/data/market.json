@@ -1,0 +1,32 @@
+{
+  "indices": [
+    { "id": "omxs30", "name": "OMXS30", "flag": "🇸🇪", "change": 0.14, "closed": false },
+    { "id": "nasdaq", "name": "NASDAQ", "flag": "🇺🇸", "change": -1.45, "closed": false },
+    { "id": "bitcoin", "name": "Bitcoin", "icon": "₿", "change": -1.06, "closed": false },
+    { "id": "brent", "name": "Brent", "icon": "🛢️", "change": 7.07, "closed": false }
+  ],
+  "news": [
+    {
+      "id": 1,
+      "source": "Marknaden",
+      "time": "20 min",
+      "title": "OMXS30 stängde svagt uppåt",
+      "summary": "OMXS30 stängde svagt uppåt efter en dag präglad av kraftig volatilitet och ökade geopolitiska spänningar. Samtidigt backade de amerikanska börserna, däribland S&P 500, då rusande energipriser dämpade riskaptiten.",
+      "relatedIndices": ["omxs30", "bitcoin", "brent"]
+    },
+    {
+      "id": 2,
+      "source": "SEB",
+      "time": "1 h",
+      "title": "Smabolag fortsätter tappa i orolig marknad",
+      "summary": "Småbolagsfonder har tappat mark de senaste månaderna i takt med att investerare söker sig till tryggare tillgångar. SEB:s analytiker varnar för fortsatt press på sektorn."
+    },
+    {
+      "id": 3,
+      "source": "Di",
+      "time": "3 h",
+      "title": "Globala indexfonder håller emot bättre",
+      "summary": "I en turbulent marknad har globala indexfonder visat sig mer motståndskraftiga än sektorspecifika fonder, visar ny analys."
+    }
+  ]
+}

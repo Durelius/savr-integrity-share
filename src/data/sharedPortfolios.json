@@ -1,0 +1,66 @@
+{
+  "sharedPortfolios": [
+    {
+      "shareId": "abc123",
+      "sharedAt": "2025-03-10T14:22:00Z",
+      "ownerAlias": "Emilia K.",
+      "message": "Min globala strategi 🌍",
+      "totalReturnPct": 13.49,
+      "weekChangePct": -0.91,
+      "yearChangePct": 14.2,
+      "funds": [
+        {
+          "name": "Länsförsäkringar Global Index",
+          "logo": "LF",
+          "color": "#e63946",
+          "allocation": 52.6,
+          "returnSinceBuyPct": 6.24,
+          "yesterday": 0.64,
+          "threeMonths": -2.48,
+          "oneYear": 12.3
+        },
+        {
+          "name": "SEB Sverigefond Småbolag C/R",
+          "logo": "SEB",
+          "color": "#2d6a4f",
+          "allocation": 47.4,
+          "returnSinceBuyPct": -6.22,
+          "yesterday": -0.84,
+          "threeMonths": -8.44,
+          "oneYear": -3.1
+        }
+      ]
+    },
+    {
+      "shareId": "xyz789",
+      "sharedAt": "2025-03-08T09:00:00Z",
+      "ownerAlias": "Marcus T.",
+      "message": "Tech-tung portfölj 🚀",
+      "totalReturnPct": 24.7,
+      "weekChangePct": -2.1,
+      "yearChangePct": 31.4,
+      "funds": [
+        {
+          "name": "Swedbank Robur Technology",
+          "logo": "SR",
+          "color": "#2563eb",
+          "allocation": 60.0,
+          "returnSinceBuyPct": 31.2,
+          "yesterday": -1.8,
+          "threeMonths": -5.2,
+          "oneYear": 28.4
+        },
+        {
+          "name": "Handelsbanken USA Index",
+          "logo": "HB",
+          "color": "#7c3aed",
+          "allocation": 40.0,
+          "returnSinceBuyPct": 14.8,
+          "yesterday": -1.3,
+          "threeMonths": -3.1,
+          "oneYear": 19.2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "account": {
+    "name": "Gugg spar",
+    "type": "ISK",
+    "totalValue": 138923,
+    "available": 293,
+    "totalReturn": 16504,
+    "totalReturnPct": 13.49
+  },
+  "performance": {
+    "week": -1269,
+    "month": 2340,
+    "year": 8821
+  },
+  "chartData": [
+    { "date": "2022-01", "value": 100000 },
+    { "date": "2022-04", "value": 98000 },
+    { "date": "2022-07", "value": 103000 },
+    { "date": "2022-10", "value": 97000 },
+    { "date": "2023-01", "value": 108000 },
+    { "date": "2023-04", "value": 115000 },
+    { "date": "2023-07", "value": 125000 },
+    { "date": "2023-10", "value": 119000 },
+    { "date": "2024-01", "value": 130000 },
+    { "date": "2024-04", "value": 138000 },
+    { "date": "2024-07", "value": 145000 },
+    { "date": "2024-10", "value": 135000 },
+    { "date": "2025-01", "value": 141000 },
+    { "date": "2025-04", "value": 138923 }
+  ],
+  "funds": [
+    {
+      "id": "lf-global",
+      "name": "Länsförsäkringar Global Index",
+      "logo": "LF",
+      "color": "#e63946",
+      "value": 73132,
+      "purchaseValue": 68834,
+      "returnSinceBuy": 4298,
+      "returnSinceBuyPct": 6.24,
+      "yesterday": 0.64,
+      "threeMonths": -2.48,
+      "oneYear": 12.3,
+      "risk": 5,
+      "allocation": 52.6
+    },
+    {
+      "id": "seb-smabolag",
+      "name": "SEB Sverigefond Småbolag C/R",
+      "logo": "SEB",
+      "color": "#2d6a4f",
+      "value": 65499,
+      "purchaseValue": 69847,
+      "returnSinceBuy": -4348,
+      "returnSinceBuyPct": -6.22,
+      "yesterday": -0.84,
+      "threeMonths": -8.44,
+      "oneYear": -3.1,
+      "risk": 6,
+      "allocation": 47.4
+    }
+  ]
+}
