@@ -1,73 +1,28 @@
-# React + TypeScript + Vite
+# Savr – Portfolio Sharing Feature
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Built a clone of the Savr app in React TypeScript and added a new feature: sharing your portfolio with friends.
 
-Currently, two official plugins are available:
+## What I built
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+### The app
+Cloned the core Savr UI — home screen with market indices (OMXS30, NASDAQ, Bitcoin, Brent), weekly portfolio performance, market news, and the holdings screen with a full portfolio chart and fund breakdown. All running locally with dummy JSON data.
 
-## React Compiler
+### Portfolio sharing
+You can share your portfolio with friends via a link. When someone opens a shared portfolio they see everything in percentages — total return, fund allocation, performance over time — but zero actual amounts. No total value, no purchase price, no returns in SEK. Just the strategy and the percentages.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+The share flow lives in the holdings screen. Tap "Dela din portfölj", get a privacy summary of exactly what the recipient can and can't see, copy the link or preview the shared view directly in the app.
 
-## Expanding the ESLint configuration
+### Privacy mode
+Added a toggle in Shortcuts called "Integritetsläge". When it's on, all SEK amounts across the entire app blur out — your own portfolio value, fund values, returns in kr, everything. Percentages stay visible. Useful if you're showing someone your phone and don't want them clocking your numbers.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Stack
+- React + TypeScript
+- Vite
+- All data is local JSON files, no backend
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Running it
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+npm install
+npm run dev
 ```
